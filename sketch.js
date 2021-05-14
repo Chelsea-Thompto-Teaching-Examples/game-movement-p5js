@@ -174,7 +174,13 @@ function keyPressed() {
 
 //used only for zone d movement
 function keyReleased() {
-  if (key == 'h' || key == 'k') {
+  if (key == 'h') {
+    if (directionD == 'left') {
     directionD = 'still';
+    }
+  } else if (key == 'k' ){
+    if (directionD == 'right') {
+    directionD = 'still';
+    }
   }
 }
