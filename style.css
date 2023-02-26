@@ -41,4 +41,5 @@ p {
 canvas {
   display: block;
   margin: auto;
+  padding-bottom: 25px;
 }
